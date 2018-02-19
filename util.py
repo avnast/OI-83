@@ -14,7 +14,7 @@ def set_check_timeout(t):
 
 # some logging
 def LOG(message):
-	sys.stderr.write(message+"\n");
+	sys.stdout.write(message+"\n");
 
 # function to fetch instance name from tags
 def get_instance_name_tag(instance):
